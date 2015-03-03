@@ -1,0 +1,30 @@
+{
+  "name": "pbackground",
+  "description": "Run a Node.js script as a daemon/service in the background",
+  "keywords": [
+    "background",
+    "daemon",
+    "service"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "SkyLined",
+    "email": "berendjanwever@gmail.com",
+    "url": "https://github.com/SkyLined"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyLined/pBackground/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SkyLined/pBackground"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "forever-monitor": ">=1.5.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": "CC0-1.0"
+}
