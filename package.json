@@ -1,6 +1,6 @@
 {
   "name": "pbackground",
-  "description": "Run a Node.js script as a daemon/service in the background",
+  "description": "Program to run another Node.js program as a daemon/service in the background",
   "keywords": [
     "background",
     "daemon",
