@@ -10,7 +10,7 @@ Getting Started
   `npm install pbackground`
   
   Optionally: rename `pbackground` to `pBackground`: npm is unable to
-  handle the complexity of uppercase characters in a module name. Node on
+  handle the complexity of uppercase characters in a module name. Node.js on
   Windows does not have this problem, so renaming the folder is not required
   for you to use the module.
   
@@ -23,7 +23,7 @@ Notes
 ### Stopping the script
 
 There is currently no way to stop the script, other than to forcefully
-terminate the node.exe process.
+terminate the corresponding node.exe process.
 
 --------------------------------------------------------------------------------
 

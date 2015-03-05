@@ -21,7 +21,7 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "forever-monitor": ">=1.5.2"
+    "forever-monitor": "1.5.x"
   },
   "engines": {
     "node": ">=0.8.0"
