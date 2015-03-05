@@ -5,11 +5,12 @@ if (asArguments.length == 0) {
   bForever = asArguments[0] == "--forever";
   if (bForever) asArguments = asArguments.splice(1);
   var mForeverMonitor = require('forever-monitor');
-  mForeverMonitor.start(
+  var oChild = mForeverMonitor.start(
     asArguments[0], {
       "args": asArguments.splice(1),
       "max": bForever ? undefined : 1
     }
   );
+  console.log("Started process 0x" + oChild.child.pid.toString(16) + "/" + oChild.child.pid);
 }
 process.exit();
