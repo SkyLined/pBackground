@@ -5,18 +5,18 @@ Run a Node.js script as a daemon/service in the background
 
 Getting Started
 ---------------
-1. Install pBackground via NPM.
+1. Install pBackground globally via NPM.
   
-  `npm install pbackground`
+  `npm install pbackground -g`
   
   Optionally: rename `pbackground` to `pBackground`: npm is unable to
   handle the complexity of uppercase characters in a module name. Node.js on
   Windows does not have this problem, so renaming the folder is not required
   for you to use the module.
   
-2. Run your script through pBackground.
+2. Run your script using the node-bkg shortcut.
   
-  `node pBackground your-script arguments...`
+  `node-bkg your-script arguments...`
 
 Notes
 -----

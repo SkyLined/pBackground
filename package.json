@@ -19,7 +19,10 @@
     "type": "git",
     "url": "git://github.com/SkyLined/pBackground"
   },
-  "main": "./index.js",
+  "main": "./pBackground.js",
+  "bin": {
+    "node-bkg": "./pBackground.js"
+  },
   "dependencies": {
     "forever-monitor": "1.5.x"
   },

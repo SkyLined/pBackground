@@ -1,1 +1,0 @@
-module.exports = require("./" + require("path").basename(__dirname));
