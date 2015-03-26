@@ -1,4 +1,5 @@
 @ECHO OFF
+CALL :SHOW_FOLDER_NAME "%CD%"
 :START
   ECHO === Updating version number...
   CALL npm version patch -m "Version updated to %%%%s"
@@ -16,6 +17,11 @@
     )
     GOTO :ERROR
   )
+  EXIT /B 0
+
+:SHOW_FOLDER_NAME
+  ECHO *** Publishing %~nx1...
+  ECHO.
   EXIT /B 0
 
 :ERROR
